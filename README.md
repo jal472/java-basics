@@ -1,12 +1,9 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
-
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* This repository is for learning OOP basics. Particularly, this repo will contain java code that will demonstrate the use of interfaces to include multiple inheritance and also abstract classes.
+* Additionally, this will be a workspace to learn how to create and manage a project with Maven as the build system and Bamboo as the CI mechanism.
 
 ### How do I get set up? ###
 
@@ -25,5 +22,4 @@ This README would normally document whatever steps are necessary to get your app
 
 ### Who do I talk to? ###
 
-* Repo owner or admin
-* Other community or team contact
+* Jack LoCasto - jacklocasto@gmail.com
