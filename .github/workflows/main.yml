@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
     - name: Set up JDK 24
@@ -15,7 +15,7 @@ jobs:
         distribution: 'oracle'
         cache: maven
     - name: Build Application
-      run: mvn -X -b package -- file pom.xml
+      run: mvn -b package -- file pom.xml
 
     - name: Update dependency graph
       uses: advanced-security/maven-dependency-submission-action@v4
