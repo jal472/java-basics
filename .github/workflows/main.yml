@@ -17,7 +17,7 @@ jobs:
         distribution: 'oracle'
         cache: maven
     - name: Build Application
-      run: mvn -b package --file pom.xml
+      run: mvn package
 
     - name: Update dependency graph
       uses: advanced-security/maven-dependency-submission-action@v4
